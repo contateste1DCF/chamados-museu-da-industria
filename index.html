@@ -33,6 +33,12 @@ margin: 0 0 10px 0;
 font-size: 14px;
 color: #555;
 }
+.chamado .titulo {
+margin: 0 0 10px 0;
+font-size: 15px;
+font-weight: bold;
+color: #333;
+}
 .btn-group {
 display: flex;
 gap: 10px;
@@ -67,56 +73,73 @@ color: #000;
 </head>
 <body>
 <h1>Chamados GLPI</h1>
+
 <h2>Ligar Equipamentos</h2>
 <div class="chamado">
+<p class="titulo">Ligar equipamentos recepção</p>
 <div class="btn-group">
 <button class="btn-desc" data-copy="tablet, computadores e tvs">Copiar Descrição</button>
 <button class="btn-sol" data-copy="Equipamentos da recepção foram todos ligados">Copiar Solução</button>
 </div>
 </div>
+
 <div class="chamado">
+<p class="titulo">Ligar exposição Futuro das Profissões</p>
 <div class="btn-group">
 <button class="btn-desc" data-copy="disjuntores, iluminação cênica, ar condicionados projetor, tv's, sistema de som">Copiar Descrição</button>
 <button class="btn-sol" data-copy="Exposição do Futuro das Profissões ligada e verificada">Copiar Solução</button>
 </div>
 </div>
+
 <div class="chamado">
+<p class="titulo">Ligar exposição do Café</p>
 <div class="btn-group">
 <button class="btn-desc" data-copy="disjuntores, iluminação cênica, ar condicionados projetor, tv's, sistema de som">Copiar Descrição</button>
 <button class="btn-sol" data-copy="Exposição do café ligada e verificada">Copiar Solução</button>
 </div>
 </div>
+
 <div class="chamado">
+<p class="titulo">Ligar equipamentos auditório</p>
 <div class="btn-group">
-<button class="btn-desc" data-copy="ar condicionados, iluminação ambiente, projetor, notebook">Copiar Descrição</button>
-<button class="btn-sol" data-copy="Todos os equipamentos do salão do algodão foram ligados com sucesso.">Copiar Solução</button>
+<button class="btn-desc" data-copy="Iluminação Ambiente, ar condicionados, estabilizadores, mesa de som, caixas de som, projetor, notebook">Copiar Descrição</button>
+<button class="btn-sol" data-copy="Equipamentos do auditório ligados com sucesso">Copiar Solução</button>
 </div>
 </div>
+
 <h2>Desligar Equipamentos</h2>
 <div class="chamado">
+<p class="titulo">Desligar equipamentos recepção</p>
 <div class="btn-group">
 <button class="btn-desc" data-copy="tablet, computadores e tvs">Copiar Descrição</button>
 <button class="btn-sol" data-copy="Equipamentos da recepção foram todos desligados">Copiar Solução</button>
 </div>
 </div>
+
 <div class="chamado">
+<p class="titulo">Desligar exposição Futuro das Profissões</p>
 <div class="btn-group">
 <button class="btn-desc" data-copy="disjuntores, iluminação cênica, ar condicionados projetor, tv's, sistema de som">Copiar Descrição</button>
 <button class="btn-sol" data-copy="Exposição do Futuro das Profissões desligada e verificada">Copiar Solução</button>
 </div>
 </div>
+
 <div class="chamado">
+<p class="titulo">Desligar exposição do Café</p>
 <div class="btn-group">
 <button class="btn-desc" data-copy="disjuntores, iluminação cênica, ar condicionados projetor, tv's, sistema de som">Copiar Descrição</button>
 <button class="btn-sol" data-copy="Exposição do café desligada e verificada">Copiar Solução</button>
 </div>
 </div>
+
 <div class="chamado">
+<p class="titulo">Desligar equipamentos auditório</p>
 <div class="btn-group">
-<button class="btn-desc" data-copy="ar condicionados, iluminação ambiente, projetor, notebook">Copiar Descrição</button>
-<button class="btn-sol" data-copy="Todos os equipamentos do salão do algodão foram desligados com sucesso.">Copiar Solução</button>
+<button class="btn-desc" data-copy="Iluminação Ambiente, ar condicionados, estabilizadores, mesa de som, caixas de som, projetor, notebook">Copiar Descrição</button>
+<button class="btn-sol" data-copy="Equipamentos do auditório desligados com sucesso">Copiar Solução</button>
 </div>
 </div>
+
 <script>
 document.querySelectorAll('button[data-copy]').forEach(botao => {
 botao.addEventListener('click', () => {

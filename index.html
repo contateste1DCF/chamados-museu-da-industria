@@ -71,8 +71,11 @@ color: #000;
 </style>
 </head>
 <body>
+
 <h1>Chamados GLPI</h1>
+
 <h2>Ligar Equipamentos</h2>
+
 <div class="chamado">
 <h3>Ligar equipamentos recepção</h3>
 <div class="btn-group">
@@ -80,6 +83,7 @@ color: #000;
 <button class="btn-sol" data-copy="Equipamentos da recepção foram todos ligados">Copiar Solução</button>
 </div>
 </div>
+
 <div class="chamado">
 <h3>Ligar exposição Futuro das Profissões</h3>
 <div class="btn-group">
@@ -87,6 +91,7 @@ color: #000;
 <button class="btn-sol" data-copy="Exposição do Futuro das Profissões ligada e verificada">Copiar Solução</button>
 </div>
 </div>
+
 <div class="chamado">
 <h3>Ligar exposição do Café</h3>
 <div class="btn-group">
@@ -94,6 +99,7 @@ color: #000;
 <button class="btn-sol" data-copy="Exposição do café ligada e verificada">Copiar Solução</button>
 </div>
 </div>
+
 <div class="chamado">
 <h3>Ligar salão do algodão</h3>
 <div class="btn-group">
@@ -101,7 +107,25 @@ color: #000;
 <button class="btn-sol" data-copy="Todos os equipamentos do salão do algodão foram ligados com sucesso.">Copiar Solução</button>
 </div>
 </div>
+
+<div class="chamado">
+<h3>Ligar auditório</h3>
+<div class="btn-group">
+<button class="btn-desc" data-copy="iluminação cênica, estabilizadores, mesa de som, caixas de som, notebook, projetor">Copiar Descrição</button>
+<button class="btn-sol" data-copy="Equipamentos do auditório foram ligados com sucesso.">Copiar Solução</button>
+</div>
+</div>
+
+<div class="chamado">
+<h3>Ligar MuseuLab</h3>
+<div class="btn-group">
+<button class="btn-desc" data-copy="iluminação ambiente, ar condicionado, disjuntores, estabilizadores, os notebooks, os monitores, tv.">Copiar Descrição</button>
+<button class="btn-sol" data-copy="Todos os equipamentos do MuseuLab foram ligados com sucesso.">Copiar Solução</button>
+</div>
+</div>
+
 <h2>Desligar Equipamentos</h2>
+
 <div class="chamado">
 <h3>Desligar equipamentos recepção</h3>
 <div class="btn-group">
@@ -109,6 +133,7 @@ color: #000;
 <button class="btn-sol" data-copy="Equipamentos da recepção foram todos desligados">Copiar Solução</button>
 </div>
 </div>
+
 <div class="chamado">
 <h3>Desligar exposição Futuro das Profissões</h3>
 <div class="btn-group">
@@ -116,6 +141,7 @@ color: #000;
 <button class="btn-sol" data-copy="Exposição do Futuro das Profissões desligada e verificada">Copiar Solução</button>
 </div>
 </div>
+
 <div class="chamado">
 <h3>Desligar exposição do Café</h3>
 <div class="btn-group">
@@ -123,6 +149,7 @@ color: #000;
 <button class="btn-sol" data-copy="Exposição do café desligada e verificada">Copiar Solução</button>
 </div>
 </div>
+
 <div class="chamado">
 <h3>Desligar salão do algodão</h3>
 <div class="btn-group">
@@ -130,7 +157,25 @@ color: #000;
 <button class="btn-sol" data-copy="Todos os equipamentos do salão do algodão foram desligados com sucesso.">Copiar Solução</button>
 </div>
 </div>
+
+<div class="chamado">
+<h3>Desligar auditório</h3>
+<div class="btn-group">
+<button class="btn-desc" data-copy="iluminação cênicas, estabilizadores, mesa de som, caixas de som, notebook, projetor">Copiar Descrição</button>
+<button class="btn-sol" data-copy="Equipamentos do auditório foram desligados com sucesso.">Copiar Solução</button>
+</div>
+</div>
+
+<div class="chamado">
+<h3>Desligar MuseuLab</h3>
+<div class="btn-group">
+<button class="btn-desc" data-copy="iluminação ambiente, ar condicionado, disjuntores, estabilziadores, os notebooks, os monitores, tv.">Copiar Descrição</button>
+<button class="btn-sol" data-copy="Todos os equipamentos do MuseuLab foram desligados com sucesso.">Copiar Solução</button>
+</div>
+</div>
+
 <h2>Ronda</h2>
+
 <div class="chamado">
 <h3>Ronda na unidade</h3>
 <div class="btn-group">
@@ -138,6 +183,7 @@ color: #000;
 <button class="btn-sol" data-copy="Ronda efetuada com sucesso, todos os equipamentos estão funcionando corretamente.">Copiar Solução</button>
 </div>
 </div>
+
 <script>
 document.querySelectorAll('button[data-copy]').forEach(botao => {
 botao.addEventListener('click', () => {
@@ -155,5 +201,6 @@ alert('Erro ao copiar: ' + err);
 });
 });
 </script>
+
 </body>
 </html>
